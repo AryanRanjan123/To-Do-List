@@ -1,33 +1,29 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<header>
-  <img src="logo.png" class="site-logo">
-  <h1>To-Do list</h1>
-  <nav>
-    
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "To-Do List",
-  "url": "https://aryanranjan123.github.io/To-Do-List",
-  "logo": "https://aryanranjan123.github.io/To-Do-List/logo.png"
-}
-</script>
-  
-  </nav>
-</header>
-
   <meta charset="UTF-8" />
   <meta name="google-site-verification" content="1VfIfx-nmQe3IEXgPlTPPgXhG-ZNtcAbl5PTAalTPnc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Advanced To-Do List</title>
   <link rel="stylesheet" href="style.css">
+
+  <!-- ✅ LOGO STRUCTURED DATA FOR RICH RESULT -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "To-Do List",
+    "url": "https://aryanranjan123.github.io/To-Do-List",
+    "logo": "https://aryanranjan123.github.io/To-Do-List/logo.png"
+  }
+  </script>
 </head>
+
 <body>
   <div class="app">
+    <!-- ✅ HEADER IN BODY -->
     <header>
+      <img src="logo.png" class="site-logo" alt="To-Do Logo">
       <h1>✅ My To-Do List</h1>
       <button id="darkModeToggle">🌙</button>
     </header>
@@ -38,7 +34,6 @@
     </div>
 
     <input type="text" id="searchInput" placeholder="🔍 Search tasks..." />
-
     <ul id="taskList"></ul>
   </div>
 
