@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<header>
+  <img src="logo.png" class="site-logo">
+  <h1>To-Do list</h1>
+  <nav>
+    
+  </nav>
+</header>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>✅ My To-Do List</h1>
+      <button id="darkModeToggle">🌙</button>
+    </header>
+
+    <div class="task-input">
+      <input type="text" id="taskInput" placeholder="Add a new task..." />
+      <button onclick="addTask()">Add</button>
+    </div>
+
+    <input type="text" id="searchInput" placeholder="🔍 Search tasks..." />
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
